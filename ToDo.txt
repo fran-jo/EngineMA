@@ -1,0 +1,4 @@
+TODO: Implement Factory Method for Dynamic Analysis
+TODO: script for eigenvalues with measurements - class wit different methods
+	
+TODO: script to import from OUT
