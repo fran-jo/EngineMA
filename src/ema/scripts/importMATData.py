@@ -6,8 +6,8 @@ Created on 22 jan 2016
 
 import sys, os
 from modelicares import SimRes
-from inout.streamcimh5 import StreamCIMH5
-from inout.streammatfile import InputMATStream
+from ema.inout.streamcimh5 import StreamCIMH5
+from ema.inout.streammatfile import InputMATStream
 
     
 def selectData(arrayQualquiera, mensaje):

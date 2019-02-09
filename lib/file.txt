@@ -1,0 +1,1 @@
+data = h5read('C:/Users/fragom/PhD_CIM/PYTHON/ScriptMAE/res/PMUdata_Bus1VA2VALoad9PQ.h5','/df/block0_values');

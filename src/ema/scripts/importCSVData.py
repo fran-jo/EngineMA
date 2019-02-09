@@ -4,8 +4,8 @@ Created on 19 Sep 2017
 @author: fran_jo
 '''
 import sys
-from inout.streamcsvh5 import InputCSVH5
-from inout.streamcimh5 import StreamCIMH5
+from ema.inout.streamcsvh5 import InputCSVH5
+from ema.inout.streamcimh5 import StreamCIMH5
 
 def selectData(arrayQualquiera, mensaje):
     count= 0

@@ -1,0 +1,51 @@
+Hej,
+
+modelres for ERA 
+Requirements:
+Only "PMUdata_Bus1VA2VALoad9PQ.csv" this file or relevent CSV file can be access for ERA
+
+Mode Estiamtion
+Requirements:
+mes jar file needs to put in the scr/scripts 
+matlab function for mode estiamtion needs to put in the same scr/scripts "mode_est_basic_fcn.m"(if it dosen't work sometimes matlab 
+needs to set the matlab working directory)
+I use a text file name "file" found in the same dorpbox sharedd folder 
+this file.text is the matlab command "data = h5read('PMUdata_Bus1VA2VALoad9PQ.h5','/df/block0_values');" that is send from the Java jar 
+send to matlab through using matlabcontrol 
+This txt file also need to put in the same scr/scripts place where Java jar file is.
+
+//
+Cheers!
+Enam
+
+#     """ opening the h5 file """
+#     #File1=h5py.File('Simu.h5','r')
+#     File1= h5py.File('PMUdata_Bus1VA2Venam1.h5','r')
+#     
+#     """ getting the data set from the h5 file """     
+#     #d1=File1[u'subgroup']
+#     d1=File1[u'df']
+#     """ selecting the vector or array from the h5 file """
+#     #d2=d1['highVoltage']
+#     d2=d1['block0_values']
+#     d3=d2[:,1]
+#     #print d3[0:100]
+#     a,b,c =MR.compute_ERA_model(d3[0:5000],3)
+#     """a,b,c =MR.compute_ERA_model(array,5) here 2 is the matrix size of A, B, C  """
+#     
+#     print 'printing a matrix'
+#     #print 'printing matrix a with dimensation ', a.shape
+#     print a
+#     print 'printing b matrix'
+#  
+#     print b
+#     print 'printing c matrix'
+#     print c
+#     """ creating the file to write the ERA results """
+#     File2 = h5py.File('noisesignal.h5','w')# 
+#     
+#     
+#     dset3 = File2.create_dataset("ERA_A", data=a)
+#     dset4 = File2.create_dataset("ERA_B", data=b)
+#     dset5 = File2.create_dataset("ERA_C", data=c)
+    

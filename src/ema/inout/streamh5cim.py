@@ -64,7 +64,7 @@ class StreamH5CIM(object):
     def networkName(self):
         return self.__networkname
     
-    def select_arrayMeasurements(self, networkname):
+    def select_arrayMeasurements(self):
         ''' network name is the name of the h5 file '''
         signalNames= []
         for psres in self.__gmodel.keys():

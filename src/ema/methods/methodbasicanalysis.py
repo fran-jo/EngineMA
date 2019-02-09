@@ -6,7 +6,7 @@ Created on 3 aug. 2017
 import os, platform
 from subprocess import Popen
 from PyQt4 import QtCore
-from inout.streammodeh5 import StreamModeH5
+from ema.inout.streammodeh5 import StreamModeH5
 
 class MethodAmbientAnalysis(QtCore.QThread):
     taskFinished = QtCore.pyqtSignal()

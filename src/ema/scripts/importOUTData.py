@@ -5,8 +5,8 @@ Created on 22 jan 2016
 '''
 
 import sys, os
-from inout.streamoutfile import InputOUTStream
-from inout.streamcimh5 import StreamCIMH5
+from ema.inout.streamoutfile import InputOUTStream
+from ema.inout.streamcimh5 import StreamCIMH5
 
 def selectData(self, arrayQualquiera, mensaje):
     count= 0

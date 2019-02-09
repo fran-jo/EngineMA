@@ -4,10 +4,10 @@ Created on 19 Sep 2017
 @author: fran_jo
 '''
 import sys
-from inout.streamh5cim import StreamH5CIM
-from methods.quantitativeAnalysis import QuantitativeAnalysis
-from methods.qualitativeAnalysis import QualitativeAnalysis
-from inout.streammodeh5 import StreamModeH5
+from ema.inout.streamh5cim import StreamH5CIM
+from ema.methods.quantitativeAnalysis import QuantitativeAnalysis
+from ema.methods.qualitativeAnalysis import QualitativeAnalysis
+from ema.inout.streammodeh5 import StreamModeH5
 
 '''TODO relative path, with file name, as input, make it easy'''
 
